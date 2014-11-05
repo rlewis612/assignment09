@@ -12,17 +12,18 @@
 ## Assignment Instructions:
 1. We will be using a build tool to create some CSS styles with SASS, similar to the example from class. Download and install either CodeKit (Mac) or Prepros (Windows/Mac). Both offer free trials that will allow you to complete the assignment without purchasing.
 2. Drag the "assignment09" folder into the program you installed from Step 1.
-3. Inside the "scss" folder, add three SASS files (which end in a .scss extension):
+3. Create a "scss" folder and a "css" folder in the root of the project.
+4. In your "scss" folder, add three SASS files (which end in a .scss extension):
    1. One for a CSS reset
    2. One for variables
    3. One for the main SASS file that will be compiled into CSS (hint: .scss files that begin with "_" will not be compiled into their own CSS files, which is ideal for importing).
-4. Import your reset and variables SASS files into your main SASS file.
-5. In your SASS files, do the following:
+5. Import your reset and variables SASS files into your main SASS file.
+6. In your SASS files, do the following:
    1. Create variables for red, green and blue font colors, and apply them to the appropriate classes in editme.html.
    2. Create a variable for bold text, and use an @extend to apply it to your red and blue text.
-6. Inside the "editme.html" file, link to your compiled CSS file.
-7. Make sure your HTML validates.
-8. Submit the completed project via GitHub pull request before the beginning of class on 11/12/14.
+7. Inside the "editme.html" file, link to your compiled CSS file.
+8. Make sure your HTML validates.
+9. Submit the completed project via GitHub pull request before the beginning of class on 11/12/14.
 
 ## Grading Criteria:
 1. Create all required SASS files: 3pts.

@@ -15,8 +15,8 @@
 3. Inside the "scss" folder, add three SASS files (which end in a .scss extension): one for a CSS reset, one for variables, and one for the main SASS file that will be compiled into CSS (hint: .scss files that begin with "_" will not be compiled into their own CSS files, which is ideal for importing).
 4. Import your reset and variables SASS files into your main SASS file.
 5. In your SASS files, do the following:
-  # Create variables for red, green and blue font colors, and apply them to the appropriate classes in editme.html.
-  # Create a variable for bold text, and use an @extend to apply it to your red and blue text.
+    # Create variables for red, green and blue font colors, and apply them to the appropriate classes in editme.html.
+    # Create a variable for bold text, and use an @extend to apply it to your red and blue text.
 6. Inside the "editme.html" file, link to your compiled CSS file.
 7. Make sure your HTML validates.
 8. Submit the completed project via GitHub pull request before the beginning of class on 11/12/14.
